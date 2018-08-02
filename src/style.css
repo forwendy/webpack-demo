@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SourceHanSans-Normal';
+    src: url('./fonts/SourceHanSans-Normal.otf');
+}
+
+body{
+    background: #eee;
+}
+.hello {
+    color: red;
+    font-family: 'SourceHanSans-Normal';
+    background: url('./logo.png') no-repeat right;
+}
