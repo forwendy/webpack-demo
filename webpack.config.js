@@ -12,8 +12,8 @@ module.exports = {
         port: 9000,
         //服务器代理配置项
         proxy: {
-            '/help':{
-                target:'http://10.153.29.39:9036',
+            '/YltService':{
+                target:'http://www.yuelt.com:8080',
                 secure:true,
                 changeOrigin:true
                 /*
@@ -24,7 +24,7 @@ module.exports = {
                 */
             }
         }
-    }
+    },
     module: {
         rules: [
             {
